@@ -1,0 +1,47 @@
+body {
+    font-family: fantasy;
+    background-color:darkslategrey; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: honeydew;
+    letter-spacing: 0.3em;
+}
+
+h2, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 2px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
